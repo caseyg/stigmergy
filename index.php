@@ -88,7 +88,7 @@
     foreach ($pinboard->get_recent($count = '100') as $p) { ?>
     {
       id: '<?= $i; ?>',
-      text: '<?= $p->title; ?>',
+      text: "<?= $p->title; ?>",
       url: '<?= $p->url; ?>',
     },
     <?php
